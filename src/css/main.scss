@@ -62,9 +62,10 @@ body{
 	text-align: center;
 	a{
 		color: #95a5a6;;
-		padding-left: 15px;
+		padding: 0 15px;
 		text-decoration: none;
 		margin-right: 10px;
+		border-right: 2px solid #ecf0f1;
 		&:hover{
 			color: black;
 		}
@@ -80,6 +81,11 @@ body{
 			width: 12px;
 			height: 17px;
 			background-position: -22px 22px;
+			
+		}
+		+a{
+			border-right: none;
+			padding-left: 0;
 		}
 	}
 }
