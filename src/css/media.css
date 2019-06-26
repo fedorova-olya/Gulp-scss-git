@@ -1,6 +1,8 @@
 @media (min-width: 768px) and (max-width: 992px){
-	body{
-		font-size: 13px;
+	.entrance a{
+		padding: 0;
+		margin: 0;
+		border: none;
 	}
 }
 

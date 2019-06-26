@@ -52,9 +52,8 @@ body {
   text-align: center; }
   .entrance a {
     color: #95a5a6;
-    padding: 0 15px;
+    padding: 0 10px;
     text-decoration: none;
-    margin-right: 10px;
     border-right: 2px solid #ecf0f1; }
     .entrance a:hover {
       color: black; }
@@ -71,7 +70,7 @@ body {
       background-position: -22px 22px; }
     .entrance a + a {
       border-right: none;
-      padding-left: 0; }
+      padding-right: 17px; }
 
 .bag {
   display: flex;
