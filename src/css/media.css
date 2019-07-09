@@ -1,10 +1,28 @@
+
+
 @media (min-width: 768px) and (max-width: 992px){
 	.entrance a{
 		padding: 0;
 		margin: 0;
 		border: none;
 	}
+	.nav-item .nav-link{
+		display: block;
+		content: "";
+		border-bottom: 2px solid #1a242f;
+		
+	}
+	.nav-item .nav-link:after{
+		background: transparent;
+		}
+	.banerTop .carousel-caption h5{
+		font-size: 30px;
+	}
+	.banerTop .carousel-caption h5+p{
+		font-size: 20px;
+	}
 }
+
 
 @media (max-width: 767px) {
 
@@ -16,5 +34,23 @@
 	}
 	.forSearch{
 		margin-top: 5px;
+	}
+	.nav-item .nav-link:after{
+		background: transparent;
+	}
+	.nav-item .nav-link:before{
+		content: "";
+		width: 10px;
+		height: 11px;
+		background: url('../../build/img/sprite.png') -183px 45px;
+		position: absolute;
+		left: 0;
+		top: 12px;
+	}
+	.banerTop .carousel-caption h5{
+		font-size: 20px;
+	}
+	.banerTop .carousel-caption h5+p{
+		font-size: 14px;
 	}
 }

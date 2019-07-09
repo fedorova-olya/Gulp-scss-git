@@ -2,6 +2,9 @@
   background: #ecf0f1;
   border-radius: 5px; }
 
+button:focus {
+  outline: none; }
+
 .btn.focus,
 .btn:focus,
 .form-control:focus {
@@ -9,6 +12,9 @@
   box-shadow: none;
   outline: none;
   background: transparent; }
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #fff; }
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -100,5 +106,43 @@ body {
       color: #2ecc71; }
       .bag p span > span {
         color: #34495e; }
+
+.forNav {
+  background: #34495e;
+  margin-top: 20px; }
+  .forNav .navbar-nav {
+    justify-content: space-between; }
+
+.navbar-light .navbar-nav .nav-link {
+  text-align: center;
+  color: #fff;
+  position: relative; }
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #2ecc71; }
+
+.nav-item .nav-link:after {
+  content: "";
+  width: 10px;
+  height: 11px;
+  background: url("../../build/img/sprite.png") -183px 45px;
+  position: absolute;
+  right: -10px;
+  top: 12px; }
+
+.navbar-nav > .nav-item + .nav-item + .nav-item + .nav-item + .nav-item + .nav-item + .nav-item + .nav-item + .nav-item .nav-link:after {
+  background: transparent; }
+
+.banerTop .carousel-caption {
+  right: 0;
+  bottom: 215px;
+  top: 0;
+  color: #34495e; }
+  .banerTop .carousel-caption h5 {
+    font-size: 44px;
+    font-weight: 700; }
+  .banerTop .carousel-caption p {
+    font-size: 30px;
+    font-weight: 300; }
 
 /*# sourceMappingURL=main.css.map */
