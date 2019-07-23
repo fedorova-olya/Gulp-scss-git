@@ -21,6 +21,9 @@
 	.banerTop .carousel-caption h5+p{
 		font-size: 20px;
 	}
+	.banerTop .catalog ul a{
+		font-size: 13px;
+	}
 }
 
 
